@@ -1,23 +1,68 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Capybro</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='script.js'></script>
-</head>
-<body>
-    <h1>Okay I Pull Up</h1>
-    <p class="p1">Young Capybara is chilling right now please take a look at this site after some time<br>Till then, enjoy the song</p>
-    <audio controls autoplay>
-        <source src="resources/capy.mp3" type="audio/mpeg">
-    </audio> 
-    <p class="p2">~KPbara</p>
-    <img src="resources/capy.jpg" alt="okay u pull up">
+  <head>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+      <link rel="icon" href="files/capy.png" type="image/png">
+      <title>Kunal Purkayastha</title>
+  </head>
+  <body>
+    <header>
+      <h1>Kunal Purkayastha</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+        <div class="profile-pic">
+            <img src="files/dp.jpg" alt="Kunal">
+        </div>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>I am a student of B.Tech in Information Technology at Sikkim Manipal Institute of Technology. I have a strong background in programming, with experience in a variety of languages including C++, C, Python, and Java. I have a deep understanding of image processing, computer vision, and machine learning, which I have developed through various projects and coursework.
+            <br><br>
+            My passion is working with deep learning techniques and I have a great deal of experience working with CNNs and Transformers. I have been able to apply this knowledge to various projects, including image classification and object detection, and have been able to achieve state-of-the-art results.
+            <br><br>
+            In addition to my technical skills, I have also gained a wealth of experience through freelancing services, where I have worked on a variety of projects for clients. This has allowed me to develop a strong sense of problem-solving and the ability to work independently. I also have a solid foundation in data structures and algorithms through my studies in DSA.
+            <br><br>
+            I am always looking to expand my knowledge and skills and have had the opportunity to work with governmental organizations to gain more experience in the field. I am also familiar with a variety of editing software such as Photoshop, After Effects, and Premiere Pro, which I have used to create visually appealing and engaging content. I am also experienced in GUI design using python which I have used to create user-friendly interfaces.
+            <br><br>
+            Overall, I am a highly motivated and skilled individual with a strong background in both technical and creative fields. I am constantly striving to learn and improve, and I am eager to apply my skills and experience to new challenges and opportunities.</p>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <h3>Project 1: Bulk SMS sender</h3>
+            <p>I have created a GUI application using Python and the Fast2SMS API for ONGC (Oil and Natural Gas Corporation). This application allows the officers at ONGC to send SMS messages in bulk to the employees. This will help the officers to send important updates and announcements to the employees in a quick and efficient manner. The use of the Fast2SMS API allows for easy integration with the SMS messaging service, while the GUI interface provides a user-friendly experience. This application will help to improve communication and productivity within the organization.</p>
+          </li>
+          <br><br>
+          <li>
+            <h3>Project 2: Twitter BOT</h3>
+            <p>I have created a Twitter bot using Python and the Tweepy library. The bot automatically sends an image tweet every 4 hours, pulling the images from a local storage directory. The use of the Tweepy library allows for easy integration with the Twitter library, allowing the bot to automatically post tweets at regular intervals. The bot uses Python to access the local storage, select an image and post it on Twitter with a message. This bot will help in automatically posting images on twitter at regular intervals, and it can be used for various purposes such as social media marketing, promoting a product, or for personal use.</p>
+          </li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" style="text-align: center;" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" style="text-align: center;" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="8" required></textarea>
+          <input type="submit" value="Send">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright ©2023 Kunal Purkayastha</p>
+    </footer>
 
-    
-
-</body>
+  </body>
 </html>

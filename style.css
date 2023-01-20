@@ -1,33 +1,154 @@
-body{
-    background-color: black;
-    color: white;
-}
-audio{
-    width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-img{
-    width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+body {
+    background-color: #020028;
+    color: #e5e5e5;
+    font-family: 'Consolas', monospace;
+  }
+  
+  header h1 {
+    text-align: center;
+    color: #66FCF1;
+  }
+  
+  @media (max-width: 600px) {
+    /* Adjust the layout for smaller screens */
+    body {
+        font-size: 14px;
+    }
+    header h1 {
+        font-size: 24px;
+    }
+    /*hide the navbar for small screen*/
+    nav{
+        display:none;
+    }
+    /* Add a scrollbar to the main content */
+    main {
+        overflow-y: scroll;
+    }
 }
 
-h1{
+  nav {
     text-align: center;
-    font-size: 300%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #66FCF1;
+    text-decoration: none;
 }
 
-.p1{
-    text-align: center;
-    font-size: 130%;
-    font-family: sans-serif;
+section#about {
+    margin: 0;
+    padding: 10px;
 }
-.p2{
-    text-align: center;
-    font-size: 130%;
-    font-family: sans-serif;
-    margin-bottom: 50px;
+
+section#projects p{
+    margin: 0;
+    padding: 10px;
+    font-size: 17px;
+    text-align: justify;
 }
+
+
+section#contact {
+    margin: 0;
+    padding: 10px;
+}
+
+section#about p {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav a:hover {
+text-decoration: underline;
+}
+
+main {
+margin: 0 auto;
+width: 80%;
+}
+
+section {
+margin-bottom: 30px;
+}
+
+section h2 {
+text-align: center;
+color: #66FCF1;
+}
+
+section p {
+line-height: 1.5;
+}
+
+form {
+text-align: center;
+}
+
+form label {
+display: block;
+margin-bottom: 10px;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+font-family: 'Consolas', monospace;
+width: 50%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: 2px solid #66FCF1;
+border-radius: 4px;
+background-color: #e5e5e5;
+color: #0f0c29;
+}
+
+form input[type="submit"] {
+width: 50%;
+background-color: #4364f8;
+color: #e5e5e5;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+background-color: #b80000;
+}
+
+footer {
+text-align: center;
+color: #e5e5e5;
+padding: 20px 0;
+}
+
+.profile-pic {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #66FCF1;
+}
+
+  
