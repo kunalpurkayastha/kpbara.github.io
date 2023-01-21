@@ -277,12 +277,14 @@ section#certificates{
 
 section#certificates{
   display: block;
+  justify-content: center;
+  text-align: center;
+  margin-left: 30%;
 }
 
 .ibm-container, .ongc-container, .tecnoesis-container {
   box-sizing: border-box;
   width: 60%;
-  justify-content: flex-end;
 }
 
 form input[type="text"], form input[type="email"], form textarea {
