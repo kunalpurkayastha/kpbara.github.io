@@ -170,6 +170,9 @@ padding: 20px 0;
   body {
       font-size: 14px;
   }
+  ul{
+    padding-inline-start: 0px;
+  }
   /* Add a scrollbar to the main content */
   main {
       overflow-y: scroll;
