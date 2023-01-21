@@ -1,5 +1,5 @@
 body {
-    background-color: #020028;
+    background-color: #030216;
     color: #e5e5e5;
     font-family: 'Consolas', monospace;
     margin: 0px;
@@ -8,6 +8,7 @@ body {
   header h1 {
     text-align: center;
     color: #6ffcf3;
+    font-size: 3em;
   }
   
 
