@@ -87,3 +87,19 @@ function readFunction1() {
       btnText.style.display = "none";
     }
   }
+
+  function readFunction3() {
+    var dots = document.getElementById("dots3");
+    var moreText = document.getElementById("more3");
+    var btnText = document.getElementById("read-more-button3");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      moreText.style.display = "inline";
+      btnText.style.display = "none";
+    }
+  }

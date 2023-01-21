@@ -72,6 +72,18 @@ section#projects p{
   display: none;
 }
 
+#read-more-button3{
+  cursor: pointer;
+  color: #66FCF1;
+}
+#read-more-button3:hover{
+  text-decoration: underline;
+}
+
+#more3{
+  display: none;
+}
+
 section#contact {
     margin: 0;
     padding: 10px;
@@ -190,6 +202,10 @@ padding: 20px 0;
     padding: 0px;
     left: 5px;
     right:5px;
+  }
+
+  section#about h2{
+    margin-top: 20px;
   }
 
   .profile-pic img {
