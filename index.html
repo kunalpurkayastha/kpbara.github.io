@@ -4,14 +4,14 @@
       <link href="style.css" rel="stylesheet" type="text/css" />
       <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
       <link rel="icon" href="files/capy.png" type="image/png">
-      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Kunal Purkayastha</title>
   </head>
   <body> 
     <header>
       <h1>Kunal Purkayastha</h1>
     </header>
-    <button id="scroll-to-top-btn">
+    <button id="scroll-to-top-btn" type="submit" style="display: none;">
       <img src="files/scroll.png" id="scroll-button">
     </button> 
     <nav>
@@ -42,12 +42,13 @@
         <ul>
           <li>
             <h3>Project 1: Bulk SMS sender</h3>
-            <p>I have created a GUI application using Python and the Fast2SMS API for ONGC (Oil and Natural Gas Corporation). This application allows the officers at ONGC to send SMS messages in bulk to the employees. This will help the officers to send important updates and announcements to the employees in a quick and efficient manner. The use of the Fast2SMS API allows for easy integration with the SMS messaging service, while the GUI interface provides a user-friendly experience. This application will help to improve communication and productivity within the organization.</p>
+            <p>I have created a GUI application using Python and the Fast2SMS API for ONGC (Oil and Natural Gas Corporation). This application allows <span id="dots">... </span><span id="more">officers at ONGC to send SMS messages in bulk to the employees. This will help the officers to send important updates and announcements to the employees in a quick and efficient manner. The use of the Fast2SMS API allows for easy integration with the SMS messaging service, while the GUI interface provides a user-friendly experience. This application will help to improve communication and productivity within the organization.</span><a onclick="readFunction1()" id="read-more-button">Read more</a></p>
+            
           </li>
           <br><br>
           <li>
             <h3>Project 2: Twitter BOT</h3>
-            <p>I have created a Twitter bot using Python and the Tweepy library. The bot automatically sends an image tweet every 4 hours, pulling the images from a local storage directory. The use of the Tweepy library allows for easy integration with the Twitter library, allowing the bot to automatically post tweets at regular intervals. The bot uses Python to access the local storage, select an image and post it on Twitter with a message. This bot will help in automatically posting images on twitter at regular intervals, and it can be used for various purposes such as social media marketing, promoting a product, or for personal use.</p>
+            <p>I have created a Twitter bot using Python and the Tweepy library. The bot automatically sends an image tweet every 4 hours, pulling the images <span id="dots2">... </span><span id="more2">from a local storage directory. The use of the Tweepy library allows for easy integration with the Twitter library, allowing the bot to automatically post tweets at regular intervals. The bot uses Python to access the local storage, select an image and post it on Twitter with a message. This bot will help in automatically posting images on twitter at regular intervals, and it can be used for various purposes such as social media marketing, promoting a product, or for personal use.</span><a onclick="readFunction2()" id="read-more-button2">Read more</a></p>
           </li>
         </ul>
       </section>

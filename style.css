@@ -8,6 +8,8 @@ body {
     text-align: center;
     color: #6ffcf3;
   }
+  
+
 
   nav {
     text-align: center;
@@ -34,23 +36,46 @@ section#about {
     padding: 10px;
 }
 
+section#about p{
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+}
+
 section#projects p{
     margin: 0;
     padding: 10px;
-    font-size: 17px;
 }
 
+#more{
+  display: none;
+}
+
+#read-more-button{
+  cursor: pointer;
+  color: #66FCF1;
+}
+#read-more-button:hover{
+  text-decoration: underline;
+}
+
+#read-more-button2{
+  cursor: pointer;
+  color: #66FCF1;
+}
+#read-more-button2:hover{
+  text-decoration: underline;
+}
+
+#more2{
+  display: none;
+}
 
 section#contact {
     margin: 0;
     padding: 10px;
 }
 
-section#about p {
-    display: flex;
-    padding: 10px;
-    text-align: center;
-}
 
 
 nav a:hover {
@@ -140,41 +165,27 @@ padding: 20px 0;
   cursor: pointer;
 }
 
-@media only screen and (min-width: 600px){
-    section#about p {
-      margin-left: 10%;
-      margin-right: 10%;
-  }
-}
-
 @media only screen and (max-width: 600px) {
-  /* Changes for screens smaller than 600px */
-  nav li {
-      display: block;
-      margin-right: 0;
-      margin-bottom: 10px;
+  /* Adjust the layout for smaller screens */
+  body {
+      font-size: 14px;
   }
-  nav a {
-      font-size: 16px;
+  /* Add a scrollbar to the main content */
+  main {
+      overflow-y: scroll;
   }
-  section#about p {
-      margin-left: 0%;
-      margin-right: 0%;
+  header h1{
+    font-size: 3em;
   }
-  form input[type="text"], form input[type="email"], form textarea {
-      width: 80%;
-  }
-  form input[type="submit"] {
-      width: 80%;
-  }
+
   .profile-pic img {
-      width: 150px;
-      height: 150px;
-  }
-  #scroll-button {
-      width: 30px;
-      padding: 5px 10px;
-      bottom: 20px;
-      right: 20px;
-  }
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #66FCF1;
+}
+form input[type="text"], form input[type="email"], form textarea {
+  width: 90%;
+}
+  
 }
