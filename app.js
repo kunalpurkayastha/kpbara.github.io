@@ -68,7 +68,6 @@ function readFunction1() {
       dots.style.display = "none";
       btnText.innerHTML = "Read less";
       moreText.style.display = "inline";
-      btnText.style.display = "none";
     }
   }
 
@@ -83,8 +82,8 @@ function readFunction1() {
       moreText.style.display = "none";
     } else {
       dots.style.display = "none";
+      btnText.innerHTML = "Read less";
       moreText.style.display = "inline";
-      btnText.style.display = "none";
     }
   }
 
@@ -99,7 +98,7 @@ function readFunction1() {
       moreText.style.display = "none";
     } else {
       dots.style.display = "none";
+      btnText.innerHTML = "Read less";
       moreText.style.display = "inline";
-      btnText.style.display = "none";
     }
   }

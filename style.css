@@ -182,6 +182,66 @@ padding: 20px 0;
   cursor: pointer;
 }
 
+
+section#certificates{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#cert {
+  text-align: center;
+  color: #66FCF1;
+  }
+
+
+.ibm-container{
+  box-sizing: border-box;
+  width: 20%;
+}
+
+#ibm-caption{
+  width: 100%; 
+  text-align: center; 
+  margin-right: 0px;
+  
+}
+
+#ibm-image{
+  width: 100%;
+}
+
+.ongc-container{
+  box-sizing: border-box;
+  width: 20%;
+}
+
+#ongc-caption{
+  width: 100%; 
+  text-align: center;
+  
+}
+
+#ongc-image{
+  width: 100%;
+}
+
+.tecnoesis-container{
+  box-sizing: border-box;
+  width: 20%;
+}
+
+#tecnoesis-caption{
+  width: 100%; 
+  text-align: center;
+  
+}
+
+#tecnoesis-image{
+  width: 100%;
+}
+
+
 @media only screen and (max-width: 600px) {
   /* Adjust the layout for smaller screens */
   body {
@@ -214,6 +274,17 @@ padding: 20px 0;
     border-radius: 50%;
     border: 3px solid #66FCF1;
 }
+
+section#certificates{
+  display: block;
+}
+
+.ibm-container, .ongc-container, .tecnoesis-container {
+  box-sizing: border-box;
+  width: 60%;
+  justify-content: flex-end;
+}
+
 form input[type="text"], form input[type="email"], form textarea {
   width: 90%;
 }
